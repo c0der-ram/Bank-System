@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LogIn</title>
+<link rel="stylesheet" type="text/css" href="login.css">
+</head>
+<body>
+
+<div class="header">
+  <a class="logo"><img src="pictures\logo.png" style="width: 100px; height: 38px;"></a>
+  <div class="header-right">
+    <a class="" href="home.html">Home</a>
+    <a class="active" href="login.html">LogIn</a>
+    <a class="" href="signup.html">SignUp</a>
+    <a class="" href="contact.html">ContactUs</a>
+    <a class="" href="about.html">About</a>
+  </div>
+</div>
+<div class="divider"></div>
+<div class="container">
+     <center><div class="title"><b>LogIn</b></div></center>
+     <form action="login">
+
+       <div class="user-details">
+        <div class="input-box">
+
+          <select name="type" class="admin">
+            <option value="Admin">Admin</option>
+            <option value="User">User</option>
+          </select><br>
+          <span class="details">Username</span>
+          <input type="text" class="name" placeholder="Enter your username" required>
+        </div>
+        <div class="pas">
+         <div class="input-box">
+          <span class="details">Password</span>
+          <input type="text" class="username" style="width:360%" placeholder="Enter your password" required>
+        </div>
+      </div>
+        <div class="button">
+          <a href="#"><input type="submit" value="Login" class="loginbtn"></a>
+       </div>
+      <a href="#" class="forgot_pass" style="margin-top: 10px">Forgot Password</a>
+    <div class="signup_link" style="margin-top: 10px">
+      Not a member? <a href="signup.html">Signup</a>
+    </div>  
+    </div>
+   </form>
+  </div>
+</body>
+</html>

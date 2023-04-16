@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Create Account</title>
+<link rel="stylesheet" type="text/css" href="createaccount.css">
+</head>
+<body>
+
+<div class="header">
+  <a class="logo"><img src="pictures\logo.png" style="width: 100px; height: 38px;"></a>
+  </div>
+  <div class="divider"></div>
+   
+<div class="topnav">
+  <a class="#home" href="afterlogin.html">Home</a>
+  <a class="active" href="createaccount.html">New Account</a>
+  <a href="transfer.html">Transfer</a>
+  <a href="debit.html">Debit</a>
+  <a href="credit.html">Credit</a>
+  <a href="checkbalance.html">Check Balance</a>
+  <a href="transaction.html">Transaction History</a>
+  <a href="changepassword.html">Change Password</a>
+  <a href="home.html" class="split">LogOut</a>
+</div>
+ 
+ <div class="container">
+     
+     <form action="createaccount">
+       <div class="user-details">
+        <div class="input-box">
+          <span class="details">USER NAME</span>
+          <input type="text" class="name" required>
+        </div>
+         <div class="input-box">
+          <span class="details">AADHAR NUMBER</span>
+          <input type="number" class="username" required>
+        </div>
+         <div class="input-box">
+          <span class="details">EMAIL ID</span>
+          <input type="text" class="email" required>
+        </div>
+         <div class="input-box">
+          <span class="details">MOBILE NUMBER</span>
+          <input type="number" class="mnumber" required>
+        </div>
+         <div class="input-box">
+          <span class="details">FATHER NAME</span>
+          <input type="text" class="fname" required>
+        </div>
+         <div class="input-box">
+          <span class="details">ACCOUNT TYPE</span>
+          <input type="text" class="acctype" required>
+        </div>
+         <div class="input-box">
+          <span class="details">SUBMIT BALANCE</span>
+          <input type="text" class="balance" required>
+        </div>
+       </div>
+       <div class="gender-details">
+        <input type="radio" name="gender" id="dot-1">
+        <input type="radio" name="gender" id="dot-2">
+        <input type="radio" name="gender" id="dot-3">
+         <span class="gender-title">Gender</span>
+         <div class="category">
+           <label for="dot-1">
+              <span class="dot one"></span>
+              <span class="gender">Male</span>
+           </label>
+           <label for="dot-2">
+              <span class="dot two"></span>
+              <span class="gender">Female</span>
+           </label>
+           <label for="dot-3">
+              <span class="dot three"></span>
+              <span class="gender">Prefer not to say</span>
+           </label>
+         </div>
+       </div>
+       <div class="button">
+          <a href="#"><input type="submit" value="CREATE ACCOUNT" class="gnbtn"></a>
+       </div>
+     </form>    
+  </div>
+
+
+</body>
+</html>

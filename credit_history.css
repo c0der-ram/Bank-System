@@ -1,0 +1,87 @@
+* {
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+ }
+
+body{ 
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #9b59b6, #71b7e6);
+}
+.header {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 15px 10px;
+  position: absolute;
+  width: 100%;
+  margin-bottom: 44%;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.divider{
+  background-color:blue;
+  position: absolute;
+  margin-bottom: 38%;
+  height:7px;
+  width: 100%;
+  
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #38b3d9;
+  position: absolute;
+  width: 100%;
+  margin-bottom: 34%;
+
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.split {
+  float: right;
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px;
+}
+
+.topnav a.active {
+  background-color: blue;
+  color: white;
+}
+form .button{
+  height: 40px;
+  width: 200px;
+  margin-bottom: 200px;
+  font-weight: 500;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 7px;
+  background:linear-gradient(135deg, #3399ff 0%, #00ffff 100%);
+ }
+ .button:hover{
+    background: linear-gradient(-135deg, #3399ff 0%, #00ffff 100%);
+  }
